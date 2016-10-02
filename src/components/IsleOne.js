@@ -6,8 +6,8 @@ export default class IsleOne extends Component {
     render() {
         return (  
             <div className="col-md-5">
+                <CategoryDropdown />
                 <div className="wrap">
-                    <CategoryDropdown />
                     <CategoryItems />
                 </div>
             </div>

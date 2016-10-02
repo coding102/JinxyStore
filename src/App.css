@@ -19,7 +19,7 @@ html, body, .row {
 }
 
 main {
-  padding: 0 20px;
+  padding: 20px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -33,20 +33,17 @@ main {
     margin: 0 0 20px 0;
 }
 
-.top-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 320px;
-  height: 60px;
-}
-
 .searchBox {
-  position: fixed;
+  position: absolute;
+  left: 0;
   height: 5%;
   width: 100%;
-  top: 0;
-  
+}
+
+input[type="search"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
 }
 
 .wrap {
