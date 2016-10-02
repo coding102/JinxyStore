@@ -1,0 +1,59 @@
+html, body, .row {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-left: 0;
+}
+
+.col-md-5 {
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}
+.col-md-2 {
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}
+
+main {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box
+{
+    width: 180px;
+    height: 100px;
+    background: #ccc;
+    margin: 0 0 20px 0;
+}
+
+.top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 60px;
+}
+
+.searchBox {
+  position: fixed;
+  height: 5%;
+  width: 100%;
+  top: 0;
+  
+}
+
+.wrap {
+  top: 4%;
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 95%;
+  overflow: auto;
+  position: relative;
+}
